@@ -1,0 +1,73 @@
+.music {
+  background: url(../img/cover_music.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+.redes-sociales{
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.encabezado {
+  background-color: rgba(0, 0, 0);
+  width: 100%;
+  height: auto;
+}
+.img-social{
+  width: 30px;
+}
+.logo-img{
+  width: 80px;
+}
+.menu-principal
+{
+  font-size: 16px;
+  background-color: rgba(0, 0, 0,0.9);
+}
+.text1{
+color: white;
+background-color: rgba(0, 0, 0,0.6);
+font-size: 16px;
+border-radius: 10px;
+}
+.espacio{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.artista{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img{
+  width: 100%;
+}
+.buscar{
+  background-color: rgba(0, 0, 0,0.6);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+legend{
+  color: white;
+}
+.form-group{
+  text-align: left;
+}
+@media (max-width: 770px) {
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 770px) {
+    textarea {
+      width: 100%;
+    }
